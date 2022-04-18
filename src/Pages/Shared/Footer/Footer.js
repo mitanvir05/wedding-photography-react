@@ -4,7 +4,10 @@ const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <footer className="bg-dark text-white text-center mt-5">
+    <footer
+      style={{ marginTop: "auto" }}
+      className="bg-dark text-white text-center mt-5"
+    >
       <p>
         <small> &copy; {year} </small>
       </p>

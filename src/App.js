@@ -14,7 +14,9 @@ import NotFound from "./Pages/Shared/NotFound/NotFound";
 
 function App() {
   return (
-    <div>
+    <div
+      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+    >
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
