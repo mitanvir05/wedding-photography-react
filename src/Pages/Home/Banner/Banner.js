@@ -12,8 +12,12 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3></h3>
+            <p>
+              Its no wonder that photography quotes are one of the most popular
+              things to share on social media, usually by other photographers,
+              of course.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -24,8 +28,12 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3></h3>
+            <p>
+              If you force it and you keep looking for moments then you’ll end
+              up shooting what you think the wedding should look like rather
+              than actual moments that are unfolding in front of you.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -36,9 +44,12 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3></h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Dont look at other wedding photographers work. When you walk into
+              a room, find the one thing that you are attracted to and focus on
+              that. Your instincts will guide you to finding an image that you
+              love.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
