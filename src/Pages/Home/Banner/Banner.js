@@ -12,7 +12,6 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3></h3>
             <p>
               Its no wonder that photography quotes are one of the most popular
               things to share on social media, usually by other photographers,
@@ -28,7 +27,6 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3></h3>
             <p>
               If you force it and you keep looking for moments then you’ll end
               up shooting what you think the wedding should look like rather
@@ -44,7 +42,6 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3></h3>
             <p>
               Dont look at other wedding photographers work. When you walk into
               a room, find the one thing that you are attracted to and focus on
