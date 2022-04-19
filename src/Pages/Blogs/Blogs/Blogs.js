@@ -4,7 +4,7 @@ const Blogs = () => {
   return (
     <div>
       <div>
-        <h1>Q1.Difference between authorization and authentication</h1>
+        <h3>Q1.Difference between authorization and authentication.</h3>
         <p>
           Authentication verifies who the user is.Authorization determines what
           resources a user can access.Authentication works through passwords,
@@ -16,23 +16,25 @@ const Blogs = () => {
         </p>
       </div>
       <div>
-        <h1>
+        <h3>
           Q2.Why are you using firebase? What other options do you have to
           implement authentication?
-        </h1>
+        </h3>
         <p>
           Firebase Authentication provides backend services, easy-to-use SDKs,
           and ready-made UI libraries to authenticate users to your app. It
           supports authentication using passwords, phone numbers, popular
           federated identity providers like Google, Facebook and Twitter, and
-          more. <br />
+          more. <br /> There are some website that provides authentication
+          support like Parse,Back4App,AWS
+          Amplify,Kuzzle,Couchbase,NativeScript,RxDB.
         </p>
       </div>
       <div>
-        <h1>
+        <h3>
           Q3. What other services does firebase provide other than
-          authentication
-        </h1>
+          authentication.
+        </h3>
         <p>
           There are many services which Firebase provides, Most useful of them
           are: Cloud Firestore. Cloud Functions. Authentication. Hosting. Cloud
