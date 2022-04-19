@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../../firebase.init";
@@ -22,6 +22,7 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link href="home#services">Services</Nav.Link>
             <Nav.Link href="blogs">Blogs</Nav.Link>
+            <Nav.Link href="choose">Choose</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link as={Link} to="about">

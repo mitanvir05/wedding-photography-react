@@ -4,6 +4,7 @@ import About from "./Pages/About/About";
 import Blogs from "./Pages/Blogs/Blogs/Blogs";
 import Checkout from "./Pages/Checkout/Checkout/Checkout";
 import CheckoutDetails from "./Pages/CheckoutDetails/CheckoutDetails";
+import ChooseReason from "./Pages/ChooseReason/ChooseReason";
 import Home from "./Pages/Home/Home/Home";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Login/Register/Register";
@@ -35,6 +36,7 @@ function App() {
           }
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/choose" element={<ChooseReason></ChooseReason>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
