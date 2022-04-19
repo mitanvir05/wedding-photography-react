@@ -4,7 +4,7 @@ import { Accordion } from "react-bootstrap";
 const ChooseReason = () => {
   return (
     <div>
-      <h1 className="text-primary text-center m-2">Why you choose me ?</h1>
+      <h1 className="text-primary text-center m-4">Why you choose me ?</h1>
       <Accordion defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Accordion Item #1</Accordion.Header>
