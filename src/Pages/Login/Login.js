@@ -11,12 +11,17 @@ const Login = () => {
 
   const location = useLocation();
   let from = location.state?.from?.pathname || "/";
+  console.log(from);
 
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
   if (user) {
     navigate(from, { replace: true });
   }
+  if (loading) {
+    return <p>Loading.......</p>;
+  }
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const email = emailRef.current.value;
@@ -24,6 +29,7 @@ const Login = () => {
     signInWithEmailAndPassword(email, password);
   };
   const navigateRegister = (event) => {
+    event.preventDefault();
     navigate("/register");
   };
 

@@ -6,7 +6,7 @@ const CheckoutDetails = () => {
   return (
     <div>
       <h1>This is :{serviceId}</h1>
-      <h2>udghugdhu</h2>
+
       <div className="text-center">
         <Link to="/checkout">
           <button className="btn btn-primary">Proceed to Checkout</button>
