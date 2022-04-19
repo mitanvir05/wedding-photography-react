@@ -1,4 +1,6 @@
 import React from "react";
+import ChooseReason from "../../ChooseReason/ChooseReason";
+
 import Banner from "../Banner/Banner";
 import Services from "../Services/Services";
 
@@ -9,6 +11,7 @@ const Home = () => {
       <Banner></Banner>
 
       <Services></Services>
+      <ChooseReason></ChooseReason>
     </div>
   );
 };
